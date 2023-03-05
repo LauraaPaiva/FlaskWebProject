@@ -9,7 +9,7 @@ def home():
     return render_template('home.html')
 
 @app.route('/sobre')
-def contato():
+def sobre():
     return render_template('sobre.html')
 
 if __name__ == '__main__':
