@@ -34,6 +34,7 @@
     <Content Include="Templates\home.html" />
     <Content Include="Templates\base.html" />
     <Content Include="Templates\sobre.html" />
+    <Content Include="Templates\navbar.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="envFlask\">
