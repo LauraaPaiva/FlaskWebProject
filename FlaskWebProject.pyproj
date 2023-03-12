@@ -28,9 +28,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="forms.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="Templates\login.html" />
     <Content Include="Templates\home.html" />
     <Content Include="Templates\base.html" />
     <Content Include="Templates\sobre.html" />
